@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# This line is a comment.
+
+echo "A comment will follow." # Comment Here
+#                            ^ space here
+
+# comma operator
+let "t2 = ((a = 9, 15 / 3))"
+# set "a = 9" and "t2 = 15 / 3"
+
+echo t2
+
+## endless while loop
+#while:
+#do 
+#    operation-1
+#    operation-2
+#    ...
+#    operation-n
+#done
+#
+## same as
+#while true
+#    do
+#    ...
+#    done
+#
+## if/then
+#if condition
+#then : # Do nothing and branch ahead
+#else   # Or else ...
+#    take-some-action
+#fi
+
+
+(z=abc; echo $z)

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sshfs james@server:/media/WII/Music/ ~/sshmusic/
+

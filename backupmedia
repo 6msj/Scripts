@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find /media/Main/Movies -maxdepth 1 -type d -printf '%f\n' > ~/backups/movies.txt
+find /media/Main/TV -maxdepth 1 -type d -printf '%f\n' > ~/backups/tvs.txt
+find /media/Main/Music -maxdepth 1 -type d -printf '%f\n' > ~/backups/musics.txt

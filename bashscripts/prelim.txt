@@ -1,0 +1,9 @@
+Thu Jan 26 15:05:27 PST 2012
+jamesarch pts/1        2012-01-24 19:34 (:pts/0:S.0)
+jamesarch pts/2        2012-01-24 19:34 (:pts/0:S.1)
+jamesarch pts/3        2012-01-24 19:34 (:pts/0:S.2)
+jamesarch pts/4        2012-01-24 19:34 (:pts/0:S.3)
+jamesarch pts/5        2012-01-25 21:40 (:pts/0:S.4)
+jamesarch pts/6        2012-01-24 19:34 (:pts/0:S.5)
+jamesarch pts/7        2012-01-24 19:34 (:pts/0:S.6)
+ 15:05:27 up 1 day, 19:32,  7 users,  load average: 0.52, 1.43, 1.06

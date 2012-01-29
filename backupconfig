@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp /home/jamesarch/.vimrc ~/backups/configs/.vimrc
+cp /home/jamesarch/.mpdconf ~/backups/configs/.mpdconf
+cp /home/jamesarch/.screenrc ~/backups/configs/.screenrc
+cp /home/jamesarch/.rtorrent.rc ~/backups/configs/.rtorrent.rc
+cp /home/jamesarch/.irssi/config ~/backups/configs/.irssi/config
+cp /home/jamesarch/.xinitrc ~/backups/configs/.xinitrc
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+#preliminary script
+
+date >> ~/bin/bashscripts/prelim.txt
+who >> ~/bin/bashscripts/prelim.txt
+uptime >> ~/bin/bashscripts/prelim.txt
+
