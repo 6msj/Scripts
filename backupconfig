@@ -6,4 +6,7 @@ cp /home/jamesarch/.screenrc ~/backups/configs/.screenrc
 cp /home/jamesarch/.rtorrent.rc ~/backups/configs/.rtorrent.rc
 cp /home/jamesarch/.irssi/config ~/backups/configs/.irssi/config
 cp /home/jamesarch/.xinitrc ~/backups/configs/.xinitrc
+cp /home/jamesarch/.Xdefaults ~/backups/configs/.Xdefaults
+cp /home/jamesarch/.cgdb/cgdbrc ~/backups/.cgdb/cgdbrc
+cp /home/jamesarch/.Xresources ~/backups/configs/.Xresources
 

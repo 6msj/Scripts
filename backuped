@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# backing up dat vim
+sudo rsync -tup --modify-window=1 /home/jamesarch/.vimrc /etc/vimrc
+rsync -tuP --modify-window=1 /home/jamesarch/.vimrc /home/jamesarch/.vim/vimrc
+sudo rsync -turP --modify-window=1 --delete /home/jamesarch/.vim/ /media/Main/.vim/
+
+
+#backing up dat emacs
+rsync -tup --modify-window=1 /home/jamesarch/.emacs /home/jamesarch/.emacs.d/emacs
+sudo rsync -turP --modify-window=1 --delete /home/jamesarch/.emacs.d/ /media/Main/.emacs.d/
+
+
+# backuping up to git
+cd /home/jamesarch/.vim/
+git add -A
+git commit -m 'backup'
+git push origin master
+
+cd /home/jamesarch/.emacs.d/
+git add -A
+git commit -m 'backup'
+git push origin master
+
+cd
