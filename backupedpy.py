@@ -12,7 +12,7 @@ def backup_VIM(choice):
         os.system('sudo rsync -turP --modify-window=1 --delete /home/jamesarch/.vim/ /media/Main/.vim/')
         os.system('echo "Backed up .vim to Main hard-drive."')
     elif choice == 'n':
-        print "You entered n."
+        print "Didn't back up vim."
     else:
         print "You didn't enter anything (worthwhile)."
 
@@ -26,7 +26,7 @@ def backup_EMACS(choice):
         os.system('echo "Backed up emacs to Main hard-drive."')
 
     elif choice == 'n':
-        print "You entered n."
+        print "Didn't back up emacs."
     else:
         print "You didn't enter anything (worthwhile)."
 
