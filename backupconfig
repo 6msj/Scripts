@@ -1,12 +1,13 @@
 #!/bin/bash
 
-cp /home/jamesarch/.vimrc ~/backups/configs/.vimrc
-cp /home/jamesarch/.mpdconf ~/backups/configs/.mpdconf
-cp /home/jamesarch/.screenrc ~/backups/configs/.screenrc
-cp /home/jamesarch/.rtorrent.rc ~/backups/configs/.rtorrent.rc
-cp /home/jamesarch/.irssi/config ~/backups/configs/.irssi/config
-cp /home/jamesarch/.xinitrc ~/backups/configs/.xinitrc
-cp /home/jamesarch/.Xdefaults ~/backups/configs/.Xdefaults
-cp /home/jamesarch/.cgdb/cgdbrc ~/backups/.cgdb/cgdbrc
-cp /home/jamesarch/.Xresources ~/backups/configs/.Xresources
+cp /home/jamesarch/.zshrc ~/Backup/configs/.zshrc
+cp /home/jamesarch/.vimrc ~/Backup/configs/.vimrc
+cp /home/jamesarch/.mpdconf ~/Backup/configs/.mpdconf
+cp /home/jamesarch/.screenrc ~/Backup/configs/.screenrc
+cp /home/jamesarch/.rtorrent.rc ~/Backup/configs/.rtorrent.rc
+cp /home/jamesarch/.irssi/config ~/Backup/configs/.irssi/config
+cp /home/jamesarch/.xinitrc ~/Backup/configs/.xinitrc
+cp /home/jamesarch/.Xdefaults ~/Backup/configs/.Xdefaults
+cp /home/jamesarch/.cgdb/cgdbrc ~/Backup/.cgdb/cgdbrc
+cp /home/jamesarch/.Xresources ~/Backup/configs/.Xresources
 
