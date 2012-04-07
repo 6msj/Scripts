@@ -2,12 +2,16 @@
 
 cp /home/jamesarch/.zshrc ~/Backup/configs/.zshrc
 cp /home/jamesarch/.vimrc ~/Backup/configs/.vimrc
+cp /home/jamesarch/.emacs ~/Backup/configs/.emacs
 cp /home/jamesarch/.mpdconf ~/Backup/configs/.mpdconf
 cp /home/jamesarch/.screenrc ~/Backup/configs/.screenrc
 cp /home/jamesarch/.rtorrent.rc ~/Backup/configs/.rtorrent.rc
 cp /home/jamesarch/.irssi/config ~/Backup/configs/.irssi/config
 cp /home/jamesarch/.xinitrc ~/Backup/configs/.xinitrc
-cp /home/jamesarch/.Xdefaults ~/Backup/configs/.Xdefaults
-cp /home/jamesarch/.cgdb/cgdbrc ~/Backup/.cgdb/cgdbrc
 cp /home/jamesarch/.Xresources ~/Backup/configs/.Xresources
+
+
+cd /home/jamesarch/Backup/
+git add *
+git push origin master
 
