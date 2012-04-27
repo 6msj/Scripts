@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Gaining Root Permissions."
+su -c "
+
+echo \"Starting sshd daemon.\";
+systemctl start sshd.service;
+
+echo \"Setting sshd to start on boot.\";
+systemctl enable sshd.service;
+    
+echo \"Setting iptables to allow ssh connections.\";
+sed -i '/-A INPUT -j REJECT --reject-with icmp-host-prohibited/i -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT' /etc/sysconfig/iptables;
+
+echo \"Restarting iptables.\";
+systemctl restart iptables.service";
+
+echo "To check if ssh is working, use another computer and use this command.\n"
+
+echo "ssh root@ip.address"
+
+echo "Replace ip.address with the number after inet addr:"
+
+ifconfig wlan0 | grep "inet addr"
+
+
